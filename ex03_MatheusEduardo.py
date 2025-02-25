@@ -24,6 +24,9 @@ if confirmacao == 'S':
 print('Você convidou {} pessoas para a festa'.format(len(nomes)))
 
 print(nomes)
+nome = input('Digite um dos nomes da lista: ').lower()
+if nome in nomes:
+    
 
 
     
